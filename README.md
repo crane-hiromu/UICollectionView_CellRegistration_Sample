@@ -1,6 +1,8 @@
 ## Description
 
-Extending the code of UICollectionView CellRegistration.
+There are some sample code of UICollectionView CellRegistration.
+
+I extend the code of UICollectionView CellRegistration.
 
 You should read [here](https://qiita.com/hcrane/private/c89a256130040adb46dd).
 
