@@ -1,5 +1,5 @@
 //
-//  ListViewController.swift
+//  RootListViewController.swift
 //  UICollectionView_CellRegistration_Sample
 //
 //  Created by Tsuruta, Hiromu | ECID on 2021/12/11.
@@ -8,7 +8,7 @@
 import UIKit
 
 // MARK: - Controller
-final class ListViewController: UICollectionViewController {
+final class RootListViewController: UICollectionViewController {
 
     // MARK: Enum
 

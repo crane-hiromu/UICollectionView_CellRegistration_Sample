@@ -21,7 +21,7 @@ extension SceneDelegate: UIWindowSceneDelegate {
         options connectionOptions: UIScene.ConnectionOptions
     ) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
-        let vc = ListViewController()
+        let vc = RootListViewController()
         let navVC = UINavigationController(rootViewController: vc)
 
         window = UIWindow(windowScene: windowScene)

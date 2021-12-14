@@ -7,6 +7,7 @@
 
 import UIKit
 
+// MARK: - UIResponder
 @main
 final class AppDelegate: UIResponder {}
 
