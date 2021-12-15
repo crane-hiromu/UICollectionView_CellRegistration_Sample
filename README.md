@@ -16,7 +16,7 @@ extension UICollectionView {
         at indexPath: IndexPath,
         handler: @escaping UICollectionView.CellRegistration<C, I>.Handler
     ) -> UICollectionViewCell where
-        C: UICollectionViewListCell,
+        C: UICollectionViewCell,
         I: Hashable
     {
         dequeueConfiguredReusableCell(
@@ -35,7 +35,7 @@ extension UICollectionView {
         at indexPath: IndexPath,
         handler: @escaping UICollectionView.CellRegistration<C, I>.Handler
     ) -> UICollectionViewCell where
-        C: UICollectionViewListCell,
+        C: UICollectionViewCell,
         I: Hashable
     {
         dequeueConfiguredReusableCell(
