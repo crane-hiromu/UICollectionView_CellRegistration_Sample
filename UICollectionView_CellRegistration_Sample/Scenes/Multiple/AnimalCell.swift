@@ -8,12 +8,12 @@
 import UIKit
 
 // MARK: - Model
-struct AnimalModel: Hashable {
+struct AnimalModel {
     var name: String
 }
 
 // MARK: - Cell
-final class AnimalCell: UICollectionViewListCell {
+final class AnimalCell: UICollectionViewCell {
 
     // MARK: Property
 
